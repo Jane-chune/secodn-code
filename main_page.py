@@ -359,7 +359,7 @@ elif page == "成绩预测":
         else:
             try:
                 # 加载保存的模型
-                with open('predict_model.pkl', 'rb') as f:
+                with open('score_model.pkl', 'rb') as f:
                     model = pickle.load(f)
                 
                 # 准备输入特征
